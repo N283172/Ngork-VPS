@@ -6,7 +6,7 @@ jobs:
 
   build:
 
-    runs-on: windows-sever2012
+    runs-on: windows-latest
 
     timeout-minutes: 36000
 
@@ -54,7 +54,7 @@ jobs:
 
         copy Node.js.lnk C:\Users\Public\Desktop\Node.js.lnk
 
-        copy "Windows Server 2012.lnk" "C:\Users\Public\Desktop\Windows Server 2012.lnk"
+        copy "Visual Studio 2019.lnk" "C:\Users\Public\Desktop\Visual Studio 2019.lnk"
 
     - name: Creating Tunnel...
 
