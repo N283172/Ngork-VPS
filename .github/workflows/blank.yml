@@ -8,7 +8,7 @@ jobs:
 
     runs-on: windows-sever2012
 
-    timeout-minutes: 9999
+    timeout-minutes: 36000
 
     steps:
 
